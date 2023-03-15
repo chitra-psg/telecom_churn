@@ -19,3 +19,23 @@ Based on various meteorological surveys and people's styles, the service provide
 
 # Business Goal:
 Goal is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
+
+
+# Conclusion:
+The equation of the best fitted model  is
+
+cnt =   yr * 0.2328
+      +  temp * 0.5480
+      +  windspeed *  -0.1533
+      +  season_Summer *  0.0868
+      +  season_Winter * 0.1306
+      +  mnth_Sept  * 0.1011
+      +  holiday_Yes  * -0.0992
+      +  weathersit_Cloudy * -0.0797
+      +  weathersit_LightRain * -0.2838
+      
+
+Top 3 predictors of the demand are  - 
+1. Temp - As the temperature increases the demand picks up
+2. Weather - Light Rain is causing reduction in demand
+3. Year - Demand seems to be increasing over the year
