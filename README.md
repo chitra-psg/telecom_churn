@@ -31,25 +31,3 @@ The main goal of the case study is to build ML models to predict churn. The pred
 3. Even though overall accuracy will be your primary evaluation metric, you should also mention other metrics like precision, recall, etc. for the different models that can be used for evaluation purposes based on different business objectives. For example, in this problem statement, one business goal can be to build an ML model that identifies customers who'll definitely churn with more accuracy as compared to the ones who'll not churn. Make sure you mention which metric can be used in such scenarios.
 
 4. Recommend strategies to manage customer churn based on your observations.
-
-
-
-
-# Conclusion:
-The equation of the best fitted model  is
-
-cnt =   yr * 0.2328
-      +  temp * 0.5480
-      +  windspeed *  -0.1533
-      +  season_Summer *  0.0868
-      +  season_Winter * 0.1306
-      +  mnth_Sept  * 0.1011
-      +  holiday_Yes  * -0.0992
-      +  weathersit_Cloudy * -0.0797
-      +  weathersit_LightRain * -0.2838
-      
-
-Top 3 predictors of the demand are  - 
-1. Temp - As the temperature increases the demand picks up
-2. Weather - Light Rain is causing reduction in demand
-3. Year - Demand seems to be increasing over the year
